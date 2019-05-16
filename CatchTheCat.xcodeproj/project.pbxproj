@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0605F46E228D46930075BBC5 /* mylogocat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0605F46C228D46930075BBC5 /* mylogocat.jpg */; };
+		0605F46F228D46930075BBC5 /* mylittlecat.png in Resources */ = {isa = PBXBuildFile; fileRef = 0605F46D228D46930075BBC5 /* mylittlecat.png */; };
+		0605F471228D5EAF0075BBC5 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0605F470228D5EAF0075BBC5 /* icon.jpg */; };
+		0605F474228D5F5F0075BBC5 /* icon120x120.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0605F472228D5F5F0075BBC5 /* icon120x120.jpg */; };
+		0605F475228D5F5F0075BBC5 /* icon180x180.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0605F473228D5F5F0075BBC5 /* icon180x180.jpg */; };
 		06C6D4CC2288BEE7007FB8AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C6D4CB2288BEE7007FB8AD /* AppDelegate.swift */; };
 		06C6D4CE2288BEE7007FB8AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06C6D4CD2288BEE7007FB8AD /* ViewController.swift */; };
 		06C6D4D12288BEE7007FB8AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C6D4CF2288BEE7007FB8AD /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0605F46C228D46930075BBC5 /* mylogocat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mylogocat.jpg; sourceTree = "<group>"; };
+		0605F46D228D46930075BBC5 /* mylittlecat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mylittlecat.png; sourceTree = "<group>"; };
+		0605F470228D5EAF0075BBC5 /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
+		0605F472228D5F5F0075BBC5 /* icon120x120.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon120x120.jpg; sourceTree = "<group>"; };
+		0605F473228D5F5F0075BBC5 /* icon180x180.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon180x180.jpg; sourceTree = "<group>"; };
 		06C6D4C82288BEE7007FB8AD /* CatchTheCat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatchTheCat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06C6D4CB2288BEE7007FB8AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		06C6D4CD2288BEE7007FB8AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +64,11 @@
 		06C6D4CA2288BEE7007FB8AD /* CatchTheCat */ = {
 			isa = PBXGroup;
 			children = (
+				0605F472228D5F5F0075BBC5 /* icon120x120.jpg */,
+				0605F473228D5F5F0075BBC5 /* icon180x180.jpg */,
+				0605F470228D5EAF0075BBC5 /* icon.jpg */,
+				0605F46D228D46930075BBC5 /* mylittlecat.png */,
+				0605F46C228D46930075BBC5 /* mylogocat.jpg */,
 				06C6D4CB2288BEE7007FB8AD /* AppDelegate.swift */,
 				06C6D4CD2288BEE7007FB8AD /* ViewController.swift */,
 				06C6D4CF2288BEE7007FB8AD /* Main.storyboard */,
@@ -122,9 +137,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0605F46F228D46930075BBC5 /* mylittlecat.png in Resources */,
+				0605F475228D5F5F0075BBC5 /* icon180x180.jpg in Resources */,
 				06C6D4D62288BEEB007FB8AD /* LaunchScreen.storyboard in Resources */,
 				06C6D4D32288BEEB007FB8AD /* Assets.xcassets in Resources */,
 				06C6D4D12288BEE7007FB8AD /* Main.storyboard in Resources */,
+				0605F471228D5EAF0075BBC5 /* icon.jpg in Resources */,
+				0605F46E228D46930075BBC5 /* mylogocat.jpg in Resources */,
+				0605F474228D5F5F0075BBC5 /* icon120x120.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7WG9RQNS8;
 				INFOPLIST_FILE = CatchTheCat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7WG9RQNS8;
 				INFOPLIST_FILE = CatchTheCat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
